@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchZone</title>
+
+    <link rel="shortcut icon" href="images/favicon_io/favicon-32x32.png" type="image/x-icon">
+
+    <!-- css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome icons link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  </head>
+  <body>
+
+    <!-- nav bar  -->
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      
+      <!-- watchzone logo  -->
+      <label class="logo" title="Wear the Watch, Show the Time">WatchZone</label>
+
+      <!-- nav bar navigation  -->
+      <ul>
+        <li><a  href="#"><i class="fa-solid fa-house"></i>  Home</a></li>
+        <li><a href="#about"><i class="fa-solid fa-question"></i>  About</a></li>
+        <li><a href="#products"><i class="fa-solid fa-shopping-bag"></i>  Products</a></li>
+        <li><a href="#contact"><i class="fa-solid fa-phone"></i>  Contact</a></li>
+        <li><a href="#"><i class="fa-solid fa-user"></i>  Login</a></li>
+      </ul>
+    </nav>
+
+    <!-- home section  -->
+    <section class="homeclass" id="home">
+        <div class="homecontainer">
+            <h3>Show your Time with WatchZone's <span class="highlight">WATCHES</span></h3>
+            <span class="highlight ">-wear the Watch, show the Time!</span>
+            <div class="subhome">
+                <p>Discover our exquisite collection of watches, meticulously crafted with precision and timeless elegance.</p>
+                <p>Embrace sophistication with our classic designs or make a bold statement with our contemporary timepieces. Elevate your style with our diverse range of watches, perfect for any occasion.</p>
+            </div>
+            <div class="subhomebutton">
+                <a href="#glimpse" class="buttonlink">See Glimpse</a>
+                <a href="#products" class="buttonlink">Go to Shop</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us section  -->
+    <section class="aboutclass" id="about">
+        <div class="heading">
+            <div class="headanim"></div>
+            <h1 >About <span class="highlight">Us</span></h1>
+        </div>
+        <div class="aboutcontainer">
+            <div class="list-keypoints">
+                <h2 class="about-subhead"><i class="fa-solid fa-star"></i> Our <span class="highlight">Keypoints <i class="fa-solid fa-star"></i></span></h2>
+                <ol class="order" > 
+                    <li><span class="bold">Timeless Craftsmanship:</span> <br>Our watches are crafted with meticulous attention to detail and an unwavering commitment to quality.</li> 
+                    <li><span class="bold">Exquisite Design:</span> <br>Whether you prefer classic, minimalist, or bold designs, we have a wide range of styles to suit every taste.</li> 
+                    <li><span class="bold">Premium Materials:</span> <br>We believe that the choice of materials directly impacts the quality and durability of a watch.</li> 
+                    <li><span class="bold">Exceptional Functionality:</span> <br>Our watches are more than just stylish accessories; they are reliable timekeeping companions.</li>
+                    <li><span class="bold">Commitment to Sustainability:</span> <br>We understand the importance of preserving our planet for future generations.</li>
+                    <li><span class="bold">Customer Satisfaction:</span> <br>Our customers are at the heart of everything we do. We strive to provide excellent customer service.</li>
+                </ol>
+            </div>
+            <div class="list-feature">
+                <!-- <h2 class="about-subhead"><i class="fa-solid fa-thumbs-up"></i> The <span class="highlight">Benefits <i class="fa-solid fa-thumbs-up"></i></span></h2> -->
+                <h2 class="about-subhead fixy"><i class="fa-solid fa-thumbs-up"></i> The <span class="highlight">Benefits <i class="fa-solid fa-thumbs-up"></i></span></h2>
+                <div class="benefits">
+                    <div class="item1">
+                        <img src="images/grid_item1.png" alt="" width="180" height="180">
+                    </div>
+                    <div class="item2">
+                        <img src="images/grid_item2.png" alt="" width="180" height="180">
+                    </div>
+                    <div class="item3">
+                        <img src="images/grid_item3.png" alt="" width="180" height="180">
+                    </div>
+                    <div class="item4">
+                        <img src="images/grid_item4.png" alt="" width="180" height="180">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Glimpses of watches section  -->
+    <section class="videoclass" id="glimpse">
+        <div class="heading">
+            <div class="headanim"></div>
+            <h1 >Glimpses of our <span class="highlight">Watches</span></h1>
+        </div>
+        <div class="subvideo">
+            <div class="video-container">
+                <video src="video/video1.webm" loop autoplay muted></video>
+            </div>
+            <div class="video-text">
+                <p>"From classic designs to cutting-edge innovations, we redefine horological perfection, making <span class="highlight">every moment extraordinary.</span>"</p>
+                <br>
+                <p>Discover the epitome of style and reliability with our timepieces, the indisputable choice for discerning watch enthusiasts worldwide.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Products section  -->
+    <section class="productclass" id="products">
+        <div class="heading">
+            <div class="headanim"></div>
+            <h1 >Our <span class="highlight">Products</span></h1>
+        </div>
+
+        <div class="productrow">
+
+            <div class="productbox">
+                <div class="productimage">
+                    <img src="images/products/product1.webp" alt="">
+                </div>
+                <div class="productcontent">
+                    <h4>ROLEX Oval Crystal New Model Trending Watch For Men 45</h4>
+                    <p class="productprice">$50.05 <span class="discount"><i class="fa-solid fa-tag"></i> 50% off</span></p>
+                </div>
+                <div class="productbuy">
+                    <a class="buttonlink"  href="#!">Buy</a>
+                    <a class="buttonlink atc" href="#!">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="productbox">
+                <div class="productimage">
+                    <img src="images/products/product2.webp" alt="">
+                </div>
+                <div class="productcontent">
+                    <h4>IK COLOURING Bestn Mens Luxury Skeleton Automatic Mechanical Wrist Watches Leather Moon Phrase Luminous Hands Self-Wind Watch</h4>
+                    <p class="productprice">$169.99 <span class="discount"><i class="fa-solid fa-tag"></i> 8% off</span></p>
+                </div>
+                <div class="productbuy">
+                    <a class="buttonlink" href="#!">Buy</a>
+                    <a class="buttonlink atc" href="#!">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="productbox">
+                <div class="productimage">
+                    <img src="images/products/product3.webp" alt="">
+                </div>
+                <div class="productcontent">
+                    <h4>PERSONALISED SILVERTON WATCH Power of AAA+ zircon</h4>
+                    <p class="productprice">$69.99 <span class="discount"><i class="fa-solid fa-tag"></i> 25% off</span></p>
+                </div>
+                <div class="productbuy">
+                    <a class="buttonlink" href="#!">Buy</a>
+                    <a class="buttonlink" href="#!">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="productbox">
+                <div class="productimage">
+                    <img src="images/products/product4.webp" alt="">
+                </div>
+                <div class="productcontent">
+                    <h4>Titan Bandhan 9400694206QM02 Oilve Green Dial analog watch for Couple (Green) At Nykaa</h4>
+                    <p class="productprice">$369.99 <span class="discount"><i class="fa-solid fa-tag"></i> 5% off</span></p>
+                </div>
+                <div class="productbuy">
+                    <a class="buttonlink" href="#!">Buy</a>
+                    <a class="buttonlink" href="#!">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="productbox">
+                <div class="productimage">
+                    <img src="images/products/product5.webp" alt="">
+                </div>
+                <div class="productcontent">
+                    <h4>Orient Ra-ab0e04g Mens 3 Star Gold Tone Stainless Steel Gold Dial Day Date Automatic Watch</h4>
+                    <p class="productprice">$659.99 <span class="discount"><i class="fa-solid fa-tag"></i> 9% off</span></p>
+                </div>
+                <div class="productbuy">
+                    <a class="buttonlink" href="#!">Buy</a>
+                    <a class="buttonlink" href="#!">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="productbox">
+                <div class="productimage">
+                    <img src="images/products/product6.webp" alt="">
+                </div>
+                <div class="productcontent">
+                    <h4>Pebble Cosmos Prime 1.91 Inch LCD Display Mint Green Smart Watch</h4>
+                    <p class="productprice">$52.99 <span class="discount"><i class="fa-solid fa-tag"></i> 21% off</span></p>
+                </div>
+                <div class="productbuy">
+                    <a class="buttonlink" href="#!">Buy</a>
+                    <a class="buttonlink" href="#!">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="productbox">
+                <div class="productimage">
+                    <img src="images/products/product7.webp" alt="">
+                </div>
+                <div class="productcontent">
+                    <h4>Apple Watch Series 7 41mm Aluminium GPS Midnight </h4>
+                    <p class="productprice">$676.69 <span class="discount"><i class="fa-solid fa-tag"></i> 19% off</span></p>
+                </div>
+                <div class="productbuy">
+                    <a class="buttonlink" href="#!">Buy</a>
+                    <a class="buttonlink" href="#!">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="productbox">
+                <div class="productimage">
+                    <img src="images/products/product8.webp" alt="">
+                </div>
+                <div class="productcontent">
+                    <h4>BoAt Primia 1.39 Inch AMOLED Active Black Smart Watch</h4>
+                    <p class="productprice">$99.99 <span class="discount"><i class="fa-solid fa-tag"></i> 33% off</span></p>
+                </div>
+                <div class="productbuy">
+                    <a class="buttonlink" href="#!">Buy</a>
+                    <a class="buttonlink" href="#!">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="productbox">
+                <div class="productimage">
+                    <img src="images/products/product9.webp" alt="">
+                </div>
+                <div class="productcontent">
+                    <h4>Casio Ecb-900mp-1adf Edifice Bluetooth Connect Analog-digital Watch - For Men</h4>
+                    <p class="productprice">$269.99 <span class="discount"><i class="fa-solid fa-tag"></i> 22% off</span></p>
+                </div>
+                <div class="productbuy">
+                    <a class="buttonlink" href="#!">Buy</a>
+                    <a class="buttonlink" href="#!">Add to Cart</a>
+                </div>
+            </div>
+
+            <div class="productbox">
+                <div class="productimage">
+                    <img src="images/products/product10.webp" alt="">
+                </div>
+                <div class="productcontent">
+                    <h4>Titan 95146KD01 Raga Ceramic Analog Watch for Women</h4>
+                    <p class="productprice">$299.99 <span class="discount"><i class="fa-solid fa-tag"></i> 18% off</span></p>
+                </div>
+                <div class="productbuy">
+                    <a class="buttonlink" href="#!">Buy</a>
+                    <a class="buttonlink" href="#!">Add to Cart</a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- Contact us section  -->
+    <section class="contactclass" id="contact">
+        <div class="heading">
+            <div class="headanim"></div>
+            <h1 >Contact <span class="highlight">Us</span></h1>
+        </div>
+
+        <div class="formcontainer">
+            <div class="contacttitle">
+                <h3>Happy to answer any queries</h3>
+                <img src="images/contact3.png" alt="">
+            </div>
+            <div class="contactform">
+                <form action="https://formsubmit.co/aryanhk711@gmail.com" method="post">
+                    <input type="text" name="firstname" id="firstname" placeholder="First Name" class="inputbox" required>
+                    <input type="text" name="lastname" id="lastname" placeholder="Last Name" class="inputbox" >
+                    <input type="email" name="email" id="email" placeholder="Email" class="inputbox" required>
+                    <textarea name="message" id="message" cols="30" rows="10" class="inputbox" placeholder="Enter your Message" required></textarea>
+
+                    <input type="submit" value="Send Message" class="buttonlink ">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer code  -->
+    <footer>
+        
+        <div class="frow">
+
+            <div class="fbox">
+                <h3>Page Links</h3>
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#glimpse">Glimpses</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+            <div class="fbox">
+                <h3>Other Links</h3>
+                <a href="#">Login/Signup</a>
+                <a href="#">Buy</a>
+                <a href="#">Add to Cart</a>
+            </div>
+
+            <div class="fbox">
+                <h3>Brands Associated</h3>
+                <a href="">Rolex</a>
+                <a href="">Titan</a>
+                <a href="">Orient</a>
+                <a href="">Apple</a>
+                <a href="">Boat</a>
+            </div>
+
+            <div class="fbox">
+                <h3>Site's Info</h3>
+                <p>contactme@watchzone.com</p>
+                <p>+1 789 789 0789</p>
+                <p>Headquarters Brampton, Canada</p>
+            </div>
+        </div>
+
+        <hr class="hrline">
+
+        <div class="copyright-container">
+            <p>&#169; Copyright</p>
+            <p>All Right Reserved</p>
+            <p>Watchzone &#174; </p>
+            <p>Terms of Services</p>
+        </div>
+
+    </footer>
+    
+  </body>
+</html>
+
